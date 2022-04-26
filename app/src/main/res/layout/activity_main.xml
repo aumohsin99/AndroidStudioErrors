@@ -6,38 +6,22 @@
     android:layout_height="match_parent">
     <!--    android:orientation="" >-->
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="409dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="12dp"
-        android:baselineAligned="false"
-        android:text="Hello, I am a Button"
-        app:layout_constraintStart_toStartOf="@+id/text1"
-        tools:layout_editor_absoluteY="249dp" />
+    <Spinner
+        android:id="@id/times"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<!--        android:layout_alignParentRight="true"-->
+        tools:layout_editor_absoluteX="-201dp"
+        tools:layout_editor_absoluteY="265dp" />
 
+<!--
     <Button
         android:id="@+id/button1"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:text="Hello, I am second Button"
+        android:text="Hello, I am send Button"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="366dp" />
-
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="409dp"
-        android:layout_height="38dp"
-        android:text="Hello, I am a TextView"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        tools:layout_editor_absoluteY="194dp" />
-
-    <TextView
-        android:id="@+id/text1"
-        android:layout_width="409dp"
-        android:layout_height="37dp"
-        android:text="Hello, I am second TextView"
-        app:layout_constraintStart_toStartOf="@+id/button1"
-        tools:layout_editor_absoluteY="309dp" />
+-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
